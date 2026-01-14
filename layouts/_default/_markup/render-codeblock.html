@@ -1,0 +1,1 @@
+{{- (transform.HighlightCodeBlock .).Wrapped | replaceRE `<code` `<code data-addsearch="include"` | safeHTML }}
